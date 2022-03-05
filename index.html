@@ -4,11 +4,12 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-   
+ <div id="container">  
 
 <form  name="dangky" >
-<table border="1"  align="center" width="510"> 
-    <tr><td colspan="2">  <h3 style="text-align: center;"> ĐĂNG KÝ THÀNH VIÊN </h3>  </td></tr>
+    <h1> ĐĂNG KÝ THÀNH VIÊN </h1>
+<table   align="center" width="510"> 
+    
 <tr>
     <td width="150">Họ và Tên:(*)</td>
     <td width="350"><input type="text" name="txthoten" > </td>
@@ -63,10 +64,12 @@
     <td>Nhập lại Mật khẩu :(*)</td>
     <td><input type=password name=nlmk size=20 ></td>
 </tr>
-<tr>  
-    <td colspan="2" align="center"><input type="button" id="dangky" value="Đăng ký"><Input type=reset value="Bỏ qua" ></td>
-</tr>
-</table></form>
+</table>
+
+</form>
+<button type="button" id="dangky" >đăng ký</button><button type=reset  >bỏ qua</button>
+
+</div>
 <script src="main.js"></script>
 </body>
 </html>

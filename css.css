@@ -1,0 +1,44 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #8E0E00;
+  
+}
+#container {
+  height: 500px;
+  width: 500px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+table {
+  padding-left: 40px;
+  border-spacing: 10px 10px;
+  align:center; 
+  width:510px;
+}
+
+h1{
+  background: #1F030C;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
